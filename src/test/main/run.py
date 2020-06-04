@@ -1,9 +1,9 @@
 #coding:utf-8
 import unittest
-from test.tankAreas.util_test.Add import Case
-from test.tankAreas.util_test.test_unnitest import Test
-from test.tankAreas.util import HTMLTestRunner
-from test.tankAreas.util.send_mail import SendEmail
+from src.test.util_test.riskAreas import RiskAreas
+from src.test.util_test.tankAreas import Test
+from src.test.util import HTMLTestRunner
+from src.test.util.send_mail import SendEmail
 
 class Runmain():
     def __init__(self):
@@ -19,9 +19,8 @@ class Runmain():
         # suite.addTest(Test('test_02'))
 
         #2种用法：第二种suite.addTests()
-        suite.addTests(map(Case, ["test_case01"]))
         suite.addTests(map(Test, ["tankAreas_add"]))
-        suite.addTests(map(Test, ["tankAreas_add"]))
+        suite.addTests(map(RiskAreas, ["riskAreasAdd"]))
 
         # # 输出结果：测试结果直接输出在控制台
         # unittest.TextTestRunner().run(suite)
