@@ -1,5 +1,6 @@
 #coding:utf-8
 import unittest
+from src.test.util_test.authorize import TestLogin
 from src.test.util_test.riskAreas import RiskAreas
 from src.test.util_test.tankAreas import Test
 from src.test.util import HTMLTestRunner
@@ -19,7 +20,8 @@ class Runmain():
         # suite.addTest(Test('test_02'))
 
         #2种用法：第二种suite.addTests()
-        suite.addTests(map(Test, ["tankAreas_add"]))
+        suite.addTests(map(TestLogin, ["login"]))
+       # suite.addTests(map(Test, ["tankAreas_add"]))
         suite.addTests(map(RiskAreas, ["riskAreasAdd"]))
 
         # # 输出结果：测试结果直接输出在控制台
@@ -30,7 +32,7 @@ class Runmain():
         HTMLTestRunner.HTMLTestRunner(stream=st, title=u'接口自动化测试报告', description=u'测试者：yl').run(suite)
 
         # #发送邮件带测试报告附件
-        self.send_mail.send_main()
+        #self.send_mail.send_main()
 
 if __name__ == '__main__':
     run = Runmain()

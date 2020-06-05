@@ -181,9 +181,9 @@
         
     <div class='page-header'>
         <h1>接口自动化测试报告</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2020-06-04 17:11:59</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:00.601823</p>
-<p class='attribute'><strong>状态:</strong> 通过 2</p>
+    <p class='attribute'><strong>开始时间:</strong> 2020-06-05 09:57:51</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:00.499752</p>
+<p class='attribute'><strong>状态:</strong> 通过 1 错误 1</p>
 
     </div>
     <div style="float: left;width:50%;"><p class='description'>测试者：yl</p></div>
@@ -215,7 +215,7 @@
         </tr>
         
     <tr class='passClass'>
-        <td>src.test.util_test.tankAreas.Test</td>
+        <td>src.test.util_test.authorize.TestLogin</td>
         <td>1</td>
         <td>1</td>
         <td>0</td>
@@ -224,30 +224,42 @@
     </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>tankAreas_add</div></td>
+    <td class='none'><div class='testcase'>login</div></td>
     <td colspan='5' align='center'>通过</td>
 </tr>
 
-    <tr class='passClass'>
+    <tr class='errorClass'>
         <td>src.test.util_test.riskAreas.RiskAreas</td>
         <td>1</td>
+        <td>0</td>
+        <td>0</td>
         <td>1</td>
-        <td>0</td>
-        <td>0</td>
         <td><a href="javascript:showClassDetail('c2',1)">详情</a></td>
     </tr>
 
-<tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>riskAreasAdd</div></td>
-    <td colspan='5' align='center'>通过</td>
+<tr id='ft2.1' class='none'>
+    <td class='errorCase'><div class='testcase'>riskAreasAdd</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        错误</a>
+    <div id='div_ft2.1' class="popup_window">
+        <pre>ft2.1: Traceback (most recent call last):
+  File "/Users/yulei/Desktop/code/ApiDemo/src/test/util_test/riskAreas.py", line 22, in riskAreasAdd
+    headers = {'Authorization': params,
+NameError: name 'params' is not defined
+</pre>
+    </div>
+    <!--css div popup end-->
+    </td>
 </tr>
 
         <tr id='total_row'>
             <td>总计</td>
             <td>2</td>
-            <td>2</td>
+            <td>1</td>
             <td>0</td>
-            <td>0</td>
+            <td>1</td>
             <td>&nbsp;</td>
         </tr>
     </table>
@@ -280,9 +292,9 @@
                     radius : '60%',
                     center: ['50%', '60%'],
                     data:[
-                        {value:2, name:'通过'},
+                        {value:1, name:'通过'},
                         {value:0, name:'失败'},
-                        {value:0, name:'错误'}
+                        {value:1, name:'错误'}
                     ],
                     itemStyle: {
                         emphasis: {
