@@ -1,6 +1,6 @@
 #coding:utf-8
 import unittest
-from src.test.util_test.authorize import TestLogin
+from src.test.util_test.login import TestLogin
 from src.test.util_test.riskAreas import RiskAreas
 from src.test.util_test.tankAreas import Test
 from src.test.util import HTMLTestRunner

@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ddd53f-e724-4838-bd2f-418ea453707e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/main/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/report/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/report/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/util_test/Add.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util_test/authorize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/util_test/authorize.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util_test/authorize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/util_test/riskAreas.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util_test/riskAreas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tankAreas/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tankAreas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tankAreas/main/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tankAreas/report/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/report/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tankAreas/util/HTMLTestRunner.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util/HTMLTestRunner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tankAreas/util/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tankAreas/util/send_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util/send_mail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tankAreas/util/test_get_post.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util/test_get_post.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +56,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.run (2)">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ApiDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/util_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test/util_test/login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ApiDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,29 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ApiDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tankAreas/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tankAreas/main/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for src.test.util_test.tankAreas.Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for authorize.TestLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ApiDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,32 +133,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;src.test.util_test.tankAreas.Test&quot;" />
+      <option name="_new_target" value="&quot;authorize.TestLogin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in /Users/yulei/Desktop/code/ApiDemo/src/mahcine/test/test_add1.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for tankAreas.Test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ApiDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/mahcine/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/util_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/mahcine/test/test_add1.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;tankAreas.Test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.run (2)" />
+        <item itemvalue="Python tests.Unittests for authorize.TestLogin" />
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python tests.Unittests for tankAreas.Test" />
         <item itemvalue="Python.run (1)" />
-        <item itemvalue="Python tests.Unittests for src.test.util_test.tankAreas.Test" />
-        <item itemvalue="Python.run" />
-        <item itemvalue="Python tests.Unittests in /Users/yulei/Desktop/code/ApiDemo/src/mahcine/test/test_add1.py" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +181,10 @@
       <workItem from="1588085396824" duration="805000" />
       <workItem from="1590392270776" duration="2297000" />
       <workItem from="1590396561920" duration="11194000" />
-      <workItem from="1591093674324" duration="18839000" />
+      <workItem from="1591093674324" duration="19353000" />
+      <workItem from="1591322786222" duration="128000" />
+      <workItem from="1591322916691" duration="10560000" />
+      <workItem from="1591928355669" duration="215000" />
     </task>
     <servers />
   </component>
@@ -207,43 +200,47 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="649" y="448" key="Github.CreateGistDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1591151979298" />
-    <state width="1598" height="205" key="GridCell.Tab.0.bottom" timestamp="1591322271370">
-      <screen x="39" y="23" width="1641" height="1027" />
+    <state width="1598" height="205" key="GridCell.Tab.0.bottom" timestamp="1591611498880">
+      <screen x="34" y="23" width="1406" height="877" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590566700725" />
+    <state width="1598" height="205" key="GridCell.Tab.0.bottom/34.23.1406.877/1440.23.2560.1417@34.23.1406.877" timestamp="1591611498880" />
     <state width="1598" height="205" key="GridCell.Tab.0.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1591279397777" />
-    <state width="1598" height="205" key="GridCell.Tab.0.bottom/39.23.1641.1027@39.23.1641.1027" timestamp="1591322271370" />
-    <state width="1598" height="205" key="GridCell.Tab.0.bottom/40.23.1640.1027@40.23.1640.1027" timestamp="1591264161398" />
+    <state width="1598" height="205" key="GridCell.Tab.0.bottom/39.23.1641.1027@39.23.1641.1027" timestamp="1591325802863" />
+    <state width="1598" height="205" key="GridCell.Tab.0.bottom/40.23.1640.1027@40.23.1640.1027" timestamp="1591342530033" />
     <state width="1342" height="217" key="GridCell.Tab.0.bottom/41.23.1639.1027@41.23.1639.1027" timestamp="1588085029444" />
     <state width="671" height="217" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1586702941643" />
     <state width="1342" height="217" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1587999157435" />
-    <state width="1598" height="205" key="GridCell.Tab.0.center" timestamp="1591322271369">
-      <screen x="39" y="23" width="1641" height="1027" />
+    <state width="1598" height="205" key="GridCell.Tab.0.center" timestamp="1591611498880">
+      <screen x="34" y="23" width="1406" height="877" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590566700724" />
+    <state width="1598" height="205" key="GridCell.Tab.0.center/34.23.1406.877/1440.23.2560.1417@34.23.1406.877" timestamp="1591611498880" />
     <state width="1598" height="205" key="GridCell.Tab.0.center/38.23.1642.1027@38.23.1642.1027" timestamp="1591279397776" />
-    <state width="1598" height="205" key="GridCell.Tab.0.center/39.23.1641.1027@39.23.1641.1027" timestamp="1591322271369" />
-    <state width="1598" height="205" key="GridCell.Tab.0.center/40.23.1640.1027@40.23.1640.1027" timestamp="1591264161397" />
+    <state width="1598" height="205" key="GridCell.Tab.0.center/39.23.1641.1027@39.23.1641.1027" timestamp="1591325802862" />
+    <state width="1598" height="205" key="GridCell.Tab.0.center/40.23.1640.1027@40.23.1640.1027" timestamp="1591342530033" />
     <state width="1342" height="217" key="GridCell.Tab.0.center/41.23.1639.1027@41.23.1639.1027" timestamp="1588085029443" />
     <state width="671" height="217" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1586702941643" />
     <state width="1342" height="217" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1587999157434" />
-    <state width="1598" height="205" key="GridCell.Tab.0.left" timestamp="1591322271369">
-      <screen x="39" y="23" width="1641" height="1027" />
+    <state width="1598" height="205" key="GridCell.Tab.0.left" timestamp="1591611498879">
+      <screen x="34" y="23" width="1406" height="877" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590566700722" />
+    <state width="1598" height="205" key="GridCell.Tab.0.left/34.23.1406.877/1440.23.2560.1417@34.23.1406.877" timestamp="1591611498879" />
     <state width="1598" height="205" key="GridCell.Tab.0.left/38.23.1642.1027@38.23.1642.1027" timestamp="1591279397775" />
-    <state width="1598" height="205" key="GridCell.Tab.0.left/39.23.1641.1027@39.23.1641.1027" timestamp="1591322271369" />
-    <state width="1598" height="205" key="GridCell.Tab.0.left/40.23.1640.1027@40.23.1640.1027" timestamp="1591264161397" />
+    <state width="1598" height="205" key="GridCell.Tab.0.left/39.23.1641.1027@39.23.1641.1027" timestamp="1591325802861" />
+    <state width="1598" height="205" key="GridCell.Tab.0.left/40.23.1640.1027@40.23.1640.1027" timestamp="1591342530032" />
     <state width="1342" height="217" key="GridCell.Tab.0.left/41.23.1639.1027@41.23.1639.1027" timestamp="1588085029442" />
     <state width="671" height="217" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1586702941642" />
     <state width="1342" height="217" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1587999157433" />
-    <state width="1598" height="205" key="GridCell.Tab.0.right" timestamp="1591322271370">
-      <screen x="39" y="23" width="1641" height="1027" />
+    <state width="1598" height="205" key="GridCell.Tab.0.right" timestamp="1591611498880">
+      <screen x="34" y="23" width="1406" height="877" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590566700724" />
+    <state width="1598" height="205" key="GridCell.Tab.0.right/34.23.1406.877/1440.23.2560.1417@34.23.1406.877" timestamp="1591611498880" />
     <state width="1598" height="205" key="GridCell.Tab.0.right/38.23.1642.1027@38.23.1642.1027" timestamp="1591279397776" />
-    <state width="1598" height="205" key="GridCell.Tab.0.right/39.23.1641.1027@39.23.1641.1027" timestamp="1591322271370" />
-    <state width="1598" height="205" key="GridCell.Tab.0.right/40.23.1640.1027@40.23.1640.1027" timestamp="1591264161398" />
+    <state width="1598" height="205" key="GridCell.Tab.0.right/39.23.1641.1027@39.23.1641.1027" timestamp="1591325802862" />
+    <state width="1598" height="205" key="GridCell.Tab.0.right/40.23.1640.1027@40.23.1640.1027" timestamp="1591342530033" />
     <state width="1342" height="217" key="GridCell.Tab.0.right/41.23.1639.1027@41.23.1639.1027" timestamp="1588085029444" />
     <state width="671" height="217" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1586702941643" />
     <state width="1342" height="217" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1587999157435" />
@@ -277,9 +274,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ApiDemo$test_suite.coverage" NAME="test_suite Coverage Results" MODIFIED="1587999157423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/mahcine" />
+    <SUITE FILE_PATH="coverage/ApiDemo$Unittests_for_tankAreas_Test.coverage" NAME="Unittests for tankAreas.Test Coverage Results" MODIFIED="1591323618533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/util_test" />
+    <SUITE FILE_PATH="coverage/ApiDemo$login.coverage" NAME="login Coverage Results" MODIFIED="1591325321492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/util_test" />
     <SUITE FILE_PATH="coverage/ApiDemo$run.coverage" NAME="run Coverage Results" MODIFIED="1590459979898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tankAreas/main" />
     <SUITE FILE_PATH="coverage/ApiDemo$Unittests_for_test_unnitest_Test.coverage" NAME="Unittests for test_unnitest.Test Coverage Results" MODIFIED="1590462876256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/tankAreas/util_test" />
-    <SUITE FILE_PATH="coverage/ApiDemo$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1591322271347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/main" />
+    <SUITE FILE_PATH="coverage/ApiDemo$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1591342530005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/main" />
+    <SUITE FILE_PATH="coverage/ApiDemo$Unittests_for_authorize_TestLogin.coverage" NAME="Unittests for authorize.TestLogin Coverage Results" MODIFIED="1591340891289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test/util_test" />
     <SUITE FILE_PATH="coverage/ApiDemo$Unittests_in_test_add1_py.coverage" NAME="Unittests in test_add1.py Coverage Results" MODIFIED="1590392514993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/mahcine/test" />
     <SUITE FILE_PATH="coverage/ApiDemo$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1590475525473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/tankAreas/main" />
     <SUITE FILE_PATH="coverage/ApiDemo$Unittests_in_TestOne_py.coverage" NAME="Unittests in TestOne.py Coverage Results" MODIFIED="1586702921471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />

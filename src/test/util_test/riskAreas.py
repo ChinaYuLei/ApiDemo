@@ -1,7 +1,7 @@
 #coding:utf-8
 import unittest
 import requests
-from src.test.util_test.authorize import TestLogin
+from src.test.util_test.login import TestLogin
 
 class RiskAreas(unittest.TestCase):
 
@@ -19,7 +19,7 @@ class RiskAreas(unittest.TestCase):
     def riskAreasAdd(self):
         test = TestLogin()
         test.login()
-        headers = {'Authorization': params,
+        headers = {'Authorization': '',
                     'Content-Type': 'application/json'}
         url = "http://api-fat.tsingyun.net/base/add/draft/risk/areas"
         data = {"deptCode":"146848581318344704","areaName":"区域名称2","orgCode":"CZ1912135","poiList":[],"submitStatus":false}

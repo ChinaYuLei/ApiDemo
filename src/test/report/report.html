@@ -181,9 +181,9 @@
         
     <div class='page-header'>
         <h1>接口自动化测试报告</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2020-06-05 09:57:51</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:00.499752</p>
-<p class='attribute'><strong>状态:</strong> 通过 1 错误 1</p>
+    <p class='attribute'><strong>开始时间:</strong> 2020-06-05 15:35:30</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:00.001477</p>
+<p class='attribute'><strong>状态:</strong> 错误 2</p>
 
     </div>
     <div style="float: left;width:50%;"><p class='description'>测试者：yl</p></div>
@@ -214,18 +214,32 @@
             <td>查看</td>
         </tr>
         
-    <tr class='passClass'>
-        <td>src.test.util_test.authorize.TestLogin</td>
-        <td>1</td>
+    <tr class='errorClass'>
+        <td>src.test.util_test.login.TestLogin</td>
         <td>1</td>
         <td>0</td>
         <td>0</td>
+        <td>1</td>
         <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
     </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>login</div></td>
-    <td colspan='5' align='center'>通过</td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>login</div></td>
+    <td colspan='5' align='center'>
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        错误</a>
+    <div id='div_ft1.1' class="popup_window">
+        <pre>ft1.1: Traceback (most recent call last):
+  File "/Users/yulei/Desktop/code/ApiDemo/src/test/util_test/login.py", line 12, in login
+    "Authorization": 'Basic {}'.format(get_authorization()),
+  File "/Users/yulei/Desktop/code/ApiDemo/src/test/util_test/login.py", line 7, in get_authorization
+    return base64.b64encode(uae_name + ":" + uae_passwd);
+NameError: name 'base64' is not defined
+</pre>
+    </div>
+    <!--css div popup end-->
+    </td>
 </tr>
 
     <tr class='errorClass'>
@@ -245,9 +259,13 @@
         错误</a>
     <div id='div_ft2.1' class="popup_window">
         <pre>ft2.1: Traceback (most recent call last):
-  File "/Users/yulei/Desktop/code/ApiDemo/src/test/util_test/riskAreas.py", line 22, in riskAreasAdd
-    headers = {'Authorization': params,
-NameError: name 'params' is not defined
+  File "/Users/yulei/Desktop/code/ApiDemo/src/test/util_test/riskAreas.py", line 21, in riskAreasAdd
+    test.login()
+  File "/Users/yulei/Desktop/code/ApiDemo/src/test/util_test/login.py", line 12, in login
+    "Authorization": 'Basic {}'.format(get_authorization()),
+  File "/Users/yulei/Desktop/code/ApiDemo/src/test/util_test/login.py", line 7, in get_authorization
+    return base64.b64encode(uae_name + ":" + uae_passwd);
+NameError: name 'base64' is not defined
 </pre>
     </div>
     <!--css div popup end-->
@@ -257,9 +275,9 @@ NameError: name 'params' is not defined
         <tr id='total_row'>
             <td>总计</td>
             <td>2</td>
-            <td>1</td>
             <td>0</td>
-            <td>1</td>
+            <td>0</td>
+            <td>2</td>
             <td>&nbsp;</td>
         </tr>
     </table>
@@ -292,9 +310,9 @@ NameError: name 'params' is not defined
                     radius : '60%',
                     center: ['50%', '60%'],
                     data:[
-                        {value:1, name:'通过'},
+                        {value:0, name:'通过'},
                         {value:0, name:'失败'},
-                        {value:1, name:'错误'}
+                        {value:2, name:'错误'}
                     ],
                     itemStyle: {
                         emphasis: {
