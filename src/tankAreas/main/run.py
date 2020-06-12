@@ -1,9 +1,9 @@
 #coding:utf-8
 import unittest
-from test.tankAreas.util_test.Add import Case
-from test.tankAreas.util_test.test_unnitest import Test
-from test.tankAreas.util import HTMLTestRunner
-from test.tankAreas.util.send_mail import SendEmail
+from src.tankAreas.util_test.Add import Case
+from src.tankAreas.util_test.test_unnitest import Test
+from src.tankAreas.util import HTMLTestRunner
+from src.tankAreas.util.send_mail import SendEmail
 
 class Runmain():
     def __init__(self):
